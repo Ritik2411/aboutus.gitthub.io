@@ -1,0 +1,705 @@
+*{
+box-sizing:border-box;
+margin:0px;
+padding:0px;
+text-decoration:none;
+list-decoration:none;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.nav-bar{
+width:100%;
+background-color:#e7e2d9;
+}
+
+.nav-bar .logo{
+font-size:24px;
+font-weight:bold;
+padding:0px 100px;
+text-transform:uppercase;
+line-height:80px;
+}
+
+.nav-bar ul{
+float:right;
+margin-right:20px;
+}
+.nav-bar ul li{
+display:inline-block;
+line-height:80px;
+margin:0px 5px;
+}
+
+.nav-bar ul li a{
+color:black;
+padding:7px 13px;
+font-size:17px;
+text-transform:uppercase;
+border-radius:3px;
+}
+
+.checkbtn{
+float:right;
+font-size:30px;
+line-height:80px;
+margin:20px 40px 0px 0px;
+display:none;
+}
+
+#check{
+display:none;
+}
+a.active,a:hover{
+background-color:white;
+transition:0.5s;
+}
+
+.div1{
+	margin-top:0px;
+	width:100%;
+	background-color:#e7e2d9;
+}
+
+.div1-1{
+	float:left;
+	width:50%;
+	transition:1s;
+	padding-bottom:110px;
+	background-color:#e7e2d9;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:200px;	
+}
+.p1{
+	font-size:70px;
+}
+
+.p2{
+	font-size:20px;
+}
+
+
+.p3{
+	line-height:35px;
+	font-size:20px;
+}
+.div1-2{
+	float:left;
+	width:50%;
+	height:650px;
+	background-image:url("eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.div2{
+	width:100%;
+	float:left;
+	margin-top:40px;
+}
+
+.div2-1{
+	width:50%;
+	float:left;
+	height:700px;
+
+}
+
+.div2-1-1{
+	width:70%;
+	float:right;
+	margin:50px auto;
+	height:600px;
+	background-image:url("om-os-oversigt-1@1x.jpg");
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	transition:1s;
+}
+
+.div2-1-1:hover{
+	background-size:110%;
+	background-position:center;
+}
+
+
+.div2-2{
+	width:50%;
+	float:left;
+}
+
+.div2-2-1{
+	font-size:20px;
+	width:60%;
+	padding-left:10px;
+	margin-top:250px;
+}
+
+.example{
+	margin-top:20px;
+	
+	font-size:20px;
+}
+
+.div2-2 .example .hover {
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.div2-2 .example .hover:before, .div2-2 .example .hover:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 2px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: black;
+}
+.div2-2 .example .hover.hover-1:before, .div2-2 .example .hover.hover-1:after {
+  left: 0;
+}
+
+.div2-2 .example:hover .hover:before, .div2-2 .example:hover .hover:after {
+  width: 100%;
+  opacity: 1;
+}
+
+.div3{
+	width:100%;
+	float:left;
+	margin-top:30px;
+}
+
+.div3-1{
+	float:left;
+	width:50%;
+}
+
+.div3-1-1{
+	width:60%;
+	float:right;
+	margin-top:170px;
+	text-align:right;
+}
+.div3-2{
+	float:left;
+	width:50%;
+	height:700px;
+}
+.div3-2-1{
+	width:60%;
+	height:600px;
+	margin-top:50px;
+	margin-left:50px;
+	background-image:url("om-os-oversigt-2@1x.jpg");
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	transition:1s;
+}
+.div3-2-1:hover{
+	background-size:110%;
+	background-position:center;
+}
+
+.div4{
+	width:100%;
+	float:left;
+	margin-top:40px;
+}
+
+.div4-1{
+	width:50%;
+	float:left;
+	height:700px;
+
+}
+
+.div4-1-1{
+	width:70%;
+	float:right;
+	margin:50px auto;
+	height:600px;
+	background-image:url("update-vertical-large.jpg");
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	transition:1s;
+}
+
+.div4-1-1:hover{
+	background-size:110%;
+	background-position:center;
+}
+.div4-2{
+	width:50%;
+	float:left;
+}
+
+.div4-2-1{
+	font-size:20px;
+	width:60%;
+	padding-left:10px;
+	margin-top:130px;
+}
+
+.div4-2 .example .hover {
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.div4-2 .example .hover:before, .div4-2 .example .hover:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 2px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: black;
+}
+.div4-2 .example .hover.hover-1:before, .div4-2 .example .hover.hover-1:after {
+  left: 0;
+}
+
+.div4-2 .example:hover .hover:before, .div4-2 .example:hover .hover:after {
+  width: 100%;
+  opacity: 1;
+}
+.div5{
+	width:100%;
+	float:left;
+	margin-top:30px;
+	background-color:#e7e3da;
+}
+
+.div5-1{
+	text-align:center;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.div5-2{
+	width:25%;
+	height:300px;
+	background-image:url("statement_img.jpg");
+	margin:50px auto;
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.div6{
+	width:100%;
+	float:left;
+	margin-top:60px;
+}
+
+.div6-1{
+	float:left;
+	width:50%;
+}
+
+.div6-1-1{
+	width:80%;
+	height:350px;
+	margin:20px auto;
+	background-image:url("Om-os-2-katalog.jpg");
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:1s;
+}
+
+.div6-1-1:hover{
+	background-size:110%;
+	background-position:center;
+}
+.div6-1-2{
+	width:80%;
+	margin:0px auto;
+	text-align:center;
+	padding-bottom:20px;
+	font-size:20px;
+}
+.div6-2{
+	float:left;
+	width:50%;
+	
+}
+
+.div6-2-1{
+	width:80%;
+	height:350px;
+	margin:20px auto;
+	background-image:url("job_small.jpg");
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:1s;
+}
+
+.div6-2-1:hover{
+	background-size:110%;
+	background-position:center;
+}
+
+.div6-2-2{
+	width:80%;
+	margin:0px auto;
+	padding-bottom:20px;
+	text-align:center;
+	font-size:20px;
+}
+
+.div7{
+	width:100%;
+	float:left;
+	margin-top:50px;
+}
+
+.div7-1{
+	width:50%;
+	float:left;
+	
+	
+}
+
+.div7-1-1{
+	width:60%;
+	margin:50px auto;
+	
+}
+
+.btn{
+	margin-top:20px;
+	padding:15px 20px;
+	background-color:transparent;
+	border:1px solid black;
+	transition:1s;
+}
+
+.btn a{
+	text-decoration:none;
+	color:black;
+	transition:1s;
+}
+.btn:hover{
+	border:1px solid red;
+	
+}
+
+.btn a:hover{
+	color:red;
+}
+
+.div7-2{
+	width:50%;
+	float:left;
+	
+	
+}
+.div7-2-1{
+	width:80%;
+	height:500px;
+	background-image:url("16-Aarhus.jpg");
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+
+.icons{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-bottom:20px;
+}
+.icons i{
+	transition:1s;
+	font-size:24px;
+}
+
+.icons i:hover{
+	transform: scale(1.2);
+}
+
+@media screen and (max-width:1025px){
+	
+.nav-bar .logo{
+font-size:25px;
+padding:0px 20px;
+}
+.checkbtn{
+display:block;
+}
+ul{
+position:fixed;
+text-align:center;
+width:100%;
+background-color:#e7e2d9;
+top:80px;
+left:-100%;
+transition:all .5s;
+text-align:center;
+}
+.nav-bar ul li{
+display:block;
+}
+.nav-bar ul li a{
+font-size:20px;
+}
+a:hover,a.active{
+background-color:none;
+}
+#check:checked ~ ul{
+left:0;
+}
+
+.div1-1{
+		padding-top:0px;
+		width:100%;
+	}
+	
+	.div1-2{
+		width:100%;
+	}
+	
+	.div2-1{
+		width:100%;
+	}
+	
+	.div2-1-1{
+		width:100%;
+		
+	}
+	
+	.div2-2{
+		width:100%;
+	}
+	.div2-2-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div3-1{
+		width:100%;
+	}
+	.div3-1-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div3-2{
+		width:100%;
+	}
+    .div3-2-1{
+		width:100%;
+		margin:0px;
+	}
+	
+	.div4-1{
+		width:100%;
+	}
+	
+	.div4-1-1{
+		width:100%;
+		
+	}
+	
+	.div4-2{
+		width:100%;
+	}
+	.div4-2-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div5-1{
+		width:100%;
+	}
+	
+	.div5-2{
+		width:100%;
+	}
+	.div6{
+		width:100%;
+	}
+	
+	.div6-1{
+		width:100%;
+	}
+	
+	.div6-2{
+		width:100%;
+	}
+	.div7-1{
+		width:100%;
+	}
+	.div7-2{
+		width:100%;
+	}
+	
+	.div7-2-1{
+		width:100%;
+	}
+
+	.icons{
+		padding-top:20px;
+	}
+}
+
+@media screen and (max-width:400px){
+	
+.nav-bar .logo{
+font-size:25px;
+padding:0px 20px;
+}
+.checkbtn{
+display:block;
+}
+ul{
+position:fixed;
+text-align:center;
+width:100%;
+background-color:#e7e2d9;
+top:80px;
+left:-100%;
+transition:all .5s;
+text-align:center;
+}
+.nav-bar ul li{
+display:block;
+}
+.nav-bar ul li a{
+font-size:20px;
+}
+a:hover,a.active{
+background-color:none;
+}
+#check:checked ~ ul{
+left:0;
+}
+
+.div1-1{
+		padding-top:0px;
+		width:100%;
+	}
+	
+	.div1-2{
+		width:100%;
+	}
+	
+	.div2-1{
+		width:100%;
+	}
+	
+	.div2-1-1{
+		width:100%;
+		
+	}
+	
+	.div2-2{
+		width:100%;
+	}
+	.div2-2-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div3-1{
+		width:100%;
+	}
+	.div3-1-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div3-2{
+		width:100%;
+	}
+    .div3-2-1{
+		width:100%;
+		margin:0px;
+	}
+	
+	.div4-1{
+		width:100%;
+	}
+	
+	.div4-1-1{
+		width:100%;
+		
+	}
+	
+	.div4-2{
+		width:100%;
+	}
+	.div4-2-1{
+		width:100%;
+		margin:0px;
+		text-align:center;
+	}
+	
+	.div5-1{
+		width:100%;
+	}
+	
+	.div5-2{
+		width:100%;
+	}
+	.div6{
+		width:100%;
+	}
+	
+	.div6-1{
+		width:100%;
+	}
+	
+	.div6-2{
+		width:100%;
+	}
+	.div7-1{
+		width:100%;
+	}
+	.div7-2{
+		width:100%;
+	}
+	
+	.div7-2-1{
+		width:100%;
+	}
+}
